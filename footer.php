@@ -25,7 +25,63 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-9"></div>
+                <div class="col-md-9">
+                    <div class="fter-right">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="item-fter">
+                                    <div class="t-fter">Giới thiệu về Umiha</div>
+                                    <div class="link-fter">
+                                        <ul>
+                                            <li><a href="">Hoạt Động Cộng Đồng</a></li>
+                                            <li><a href="">Cam Kết Thương Hiệu</a></li>
+                                            <li><a href="">Tầm Nhìn & Sứ Mệnh</a></li>
+                                            <li><a href="">Tuyển Dụng</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="item-fter">
+                                    <div class="t-fter">Hướng dẫn mua hàng</div>
+                                    <div class="link-fter">
+                                        <ul>
+                                            <li><a href="">Câu hỏi thường gặp</a></li>
+                                            <li><a href="">Chính sách giao hàng</a></li>
+                                            <li><a href="">Chính sách đổi trả</a></li>
+                                            <li><a href="">Chính sách bảo mật</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3"></div>
+                            <div class="col-md-3">
+                                <div class="item-fter">
+                                    <div class="t-fter">Công ty cổ phần <br>Umiha Group</div>
+                                    <div class="link-fter">
+                                        <ul>
+                                            <li>
+                                                <label>Địa chỉ: </label>
+                                                <p>Dương Nội, Hà Đông, Hà Nội</p>
+                                            </li>
+                                            <li>
+                                                <label>GPĐKKD <span>số 000000000 do </span> </label>
+                                                <p>Sở KHĐT Tp.Hà Nội cấp 09/04/2020</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="item-fter">
+                                    <div class="t-fter">Đăng ký hợp tác - phân phối</div>
+                                    <div class="desc-fter">Trở thành đối tác đối tác độc quyền của UMIHA ngay!</div>
+                                    <div class="btnmain"><a href="">Đăng ký</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

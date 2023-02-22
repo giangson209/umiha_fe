@@ -302,12 +302,12 @@
                             <h3>Đăng ký email nhận Khuyến mãi định kỳ</h3>
                             <div class="frm-sub">
                                 <div class="item"><input type="text" placeholder="Nhập địa chỉ email" class="txt_field"></div>
-                                <div class="item"><input type="submit" value="Send" class="btn_field"></div>
+                                <div class="item item-btn"><input type="submit" value="Send" class="btn_field"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="avarta text-center"><img src="images/avr-sale.png" class="img-fluid" alt=""></div>
+                        <div class="avarta text-right"><img src="images/avr-sale.png" class="img-fluid" alt=""></div>
                     </div>
                 </div>
             </div>

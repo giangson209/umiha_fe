@@ -261,25 +261,17 @@ input {
   transition: all 0.3s ease-in-out 0s;
 }
 
-@media (max-width: 767px) {
-  html {
-    overflow-x: hidden;
-  }
-}
-html.open_menu {
-  overflow: hidden;
-}
-
 body {
   max-width: 100%;
   overflow-x: hidden;
-  color: #000000;
+  color: #4F4F4F;
   width: 100%;
   height: 100%;
   font-size: 18px;
   line-height: 1.4;
   font-family: "Karla";
   font-weight: normal;
+  background: #F9F7F2;
 }
 
 .container {
@@ -305,6 +297,342 @@ time, mark, audio, video {
   outline: none !important;
 }
 
+.slick-slide img {
+  display: inline;
+}
+
 /*======================================== end config =================================*/
+.header-top {
+  font-size: 16px;
+  color: #fff;
+  background: #000000;
+  padding: 9px 0;
+}
+
+.head-menu {
+  padding: 25px 0;
+  font-size: 20px;
+}
+.head-menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.head-menu ul li {
+  margin-right: 30px;
+}
+.head-menu ul li:last-child {
+  margin-right: 0;
+}
+.head-menu ul li a {
+  display: flex;
+  align-items: center;
+}
+.head-menu ul li a img, .head-menu ul li a svg {
+  margin-left: 8px;
+}
+.head-menu .menu-right ul {
+  justify-content: flex-end;
+}
+
+.title {
+  margin-bottom: 70px;
+}
+.title h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.box-banner {
+  position: relative;
+  background: #DADADA;
+  padding: 202px 0 126px 0;
+}
+
+.box-service {
+  padding: 180px 0;
+}
+
+.item-service h3 {
+  padding: 25px 0 10px 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: inherit;
+}
+.item-service .info {
+  max-width: 345px;
+}
+
+.box-product-cate {
+  padding: 122px 0 170px 0;
+}
+
+.list-cate-prd {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.list-cate-prd ul {
+  list-style: none;
+}
+.list-cate-prd ul li {
+  margin-bottom: 42px;
+}
+.list-cate-prd ul li:last-child {
+  margin-bottom: 0;
+}
+
+.txt-prd-cate h4 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.txt-prd-cate .desc {
+  padding: 20px 0;
+}
+
+.btn-main a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  min-width: 182px;
+  height: 50px;
+  border: 1px solid #DCB47F;
+  color: #DCB47F;
+}
+.btn-main a:hover {
+  color: #fff;
+  background: #000000;
+  border: 1px solid #000000;
+}
+
+.box-banner-sale {
+  position: relative;
+  padding: 114px 0 80px 0;
+}
+
+.content-banner-sale {
+  position: relative;
+  padding: 0 60px;
+}
+.content-banner-sale:after {
+  content: "";
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  background: url("../images/banner-sale.png") no-repeat center;
+  background-size: cover;
+}
+.content-banner-sale .row {
+  position: relative;
+  z-index: 2;
+}
+.content-banner-sale .slogan {
+  text-align: right;
+}
+.content-banner-sale .slogan img {
+  max-height: 180px;
+}
+.content-banner-sale .txt-sale h3 {
+  color: #EDE2C5;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.content-banner-sale .txt-sale .btn-main a {
+  background: #262626;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: #FBFBFB;
+  border: 0;
+}
+
+.box-stories {
+  padding: 150px 0;
+}
+
+.item-stories .info {
+  max-width: 770px;
+  margin: 0 auto;
+  color: #7A7875;
+}
+.item-stories .info h5 {
+  padding: 26px 0;
+  text-transform: uppercase;
+  color: #7A7875;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box-product-hot {
+  padding: 140px 0 150px 0;
+}
+.box-product-hot .slide-prd-hot {
+  margin: 0 -15px;
+}
+.box-product-hot .slide-prd-hot .item-slide {
+  padding: 0 15px;
+}
+
+.item-prd ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+.item-prd ul li {
+  margin-right: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+.item-prd ul li:after {
+  content: "|";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 300;
+}
+.item-prd ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.item-prd ul li:last-child:after {
+  display: none;
+}
+.item-prd h3 {
+  padding: 18px 0;
+}
+.item-prd h3 a {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: normal;
+}
+.item-prd .price {
+  font-size: 22px;
+  font-weight: normal;
+  color: #4F4F4F;
+}
+.item-prd .price del {
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.box-review {
+  padding: 75px 0;
+}
+
+.tab-review {
+  margin-bottom: 64px;
+}
+.tab-review ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.tab-review ul li {
+  margin-right: 40px;
+}
+.tab-review ul li:last-child {
+  margin-right: 0;
+}
+
+.content-review {
+  position: relative;
+}
+.content-review .slide-review {
+  margin: 0 -30px;
+}
+.content-review .slide-review .item-slide {
+  padding: 0 30px;
+}
+
+.box-blog {
+  padding: 75px 0 110px 0;
+}
+.box-blog .slide-blog {
+  position: relative;
+  margin: 0 -30px;
+}
+.box-blog .slide-blog .item-slide {
+  padding: 0 30px;
+}
+
+.item-blog .top {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+}
+.item-blog h3 a {
+  font-size: 26px;
+  font-weight: 500;
+  display: block;
+  color: #4F4F4F;
+}
+
+.box-subscribe {
+  position: relative;
+  margin-top: 150px;
+}
+
+.content-subscribe {
+  padding: 45px 145px 0 145px;
+  background: url("../images/bn-sub.png") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+.content-subscribe .avarta img {
+  max-height: 385px;
+}
+.content-subscribe .txt-subscribe {
+  max-width: 500px;
+}
+.content-subscribe .txt-subscribe h3 {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.frm-sub {
+  position: relative;
+}
+.frm-sub .txt_field {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #455154;
+  outline: none;
+  background: transparent;
+  padding: 14px 0;
+}
+.frm-sub .item-btn {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.frm-sub .item-btn:after {
+  content: "";
+  width: 33px;
+  height: 33px;
+  background: url("../images/arrow-button.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+.frm-sub .item-btn .btn_field {
+  width: 33px;
+  height: 33px;
+  opacity: 0;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
