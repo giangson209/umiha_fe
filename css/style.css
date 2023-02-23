@@ -1,235 +1,178 @@
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-Bold.woff2") format("woff2"), url("../fonts/karla/Karla-Bold.woff") format("woff");
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-Bold.woff2") format("woff2"), url("../fonts/jose/JosefinSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-BoldItalic.woff2") format("woff2"), url("../fonts/karla/Karla-BoldItalic.woff") format("woff");
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-BoldItalic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/karla/Karla-ExtraBoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-ExtraBold.woff2") format("woff2"), url("../fonts/karla/Karla-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-Light.woff2") format("woff2"), url("../fonts/karla/Karla-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-ExtraLight.woff2") format("woff2"), url("../fonts/karla/Karla-ExtraLight.woff") format("woff");
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-ExtraLight.woff2") format("woff2"), url("../fonts/jose/JosefinSans-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-ExtraLightItalic.woff2") format("woff2"), url("../fonts/karla/Karla-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-Italic.woff2") format("woff2"), url("../fonts/karla/Karla-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-SemiBoldItalic.woff2") format("woff2"), url("../fonts/karla/Karla-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-SemiBold.woff2") format("woff2"), url("../fonts/karla/Karla-SemiBold.woff") format("woff");
-  font-weight: 600;
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-Light.woff2") format("woff2"), url("../fonts/jose/JosefinSans-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-LightItalic.woff2") format("woff2"), url("../fonts/karla/Karla-LightItalic.woff") format("woff");
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-LightItalic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-Medium.woff2") format("woff2"), url("../fonts/karla/Karla-Medium.woff") format("woff");
-  font-weight: 500;
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-Italic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-SemiBold.woff2") format("woff2"), url("../fonts/jose/JosefinSans-SemiBold.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-MediumItalic.woff2") format("woff2"), url("../fonts/karla/Karla-MediumItalic.woff") format("woff");
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-Regular.woff2") format("woff2"), url("../fonts/jose/JosefinSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-MediumItalic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Karla";
-  src: url("../fonts/karla/Karla-Regular.woff2") format("woff2"), url("../fonts/karla/Karla-Regular.woff") format("woff");
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-Medium.woff2") format("woff2"), url("../fonts/jose/JosefinSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-ThinItalic.woff2") format("woff2"), url("../fonts/jose/JosefinSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/jose/JosefinSans-Thin.woff2") format("woff2"), url("../fonts/jose/JosefinSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "VN-Boowie";
+  src: url("../fonts/VN-Boowie-Regular.woff2") format("woff2"), url("../fonts/VN-Boowie-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-/* bootstrap-tagsinput.css file - add in local */
-.bootstrap-tagsinput {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  display: inline-block;
-  padding: 8px;
-  color: #555;
-  vertical-align: middle;
-  border-radius: 10px;
-  max-width: 100%;
-  line-height: 22px;
-  cursor: text;
-  width: 100%;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-Bold.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput input {
-  border: none;
-  box-shadow: none;
-  outline: none;
-  background-color: transparent;
-  padding: 0 6px;
-  margin: 0;
-  width: auto;
-  max-width: inherit;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-LightItalic.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput.form-control input::-moz-placeholder {
-  color: #777;
-  opacity: 1;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-BoldItalic.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput.form-control input:-ms-input-placeholder {
-  color: #777;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-MediumItalic.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
-  color: #777;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-Light.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput input:focus {
-  border: none;
-  box-shadow: none;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-Medium.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput .tag {
-  color: #7FC3A7;
-  display: inline-flex;
-  padding: 4px 10px;
-  border-radius: 6px;
-  background-color: #ECF6F2;
-  margin: 2px;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-Italic.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput .tag [data-role=remove] {
-  margin-left: 8px;
-  cursor: pointer;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-Regular.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput .tag [data-role=remove]:after {
-  content: "x";
-  padding: 0px 2px;
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-Thin.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput .tag [data-role=remove]:hover {
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+@font-face {
+  font-family: "Ogg";
+  src: url("../fonts/ogg/SVN-Ogg-ThinItalic.woff2") format("woff2"), url("../fonts/ogg/SVN-Ogg-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
-
-.bootstrap-tagsinput .tag [data-role=remove]:hover:active {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-}
-
-.file {
-  position: relative;
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.file > div {
-  flex: 0 0 100%;
-}
-.file > div:last-child {
-  order: 1;
-  margin-bottom: 8px;
-}
-.file > div:first-child {
-  order: 2;
-}
-
-.file__input--file {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.file__input--label, .file__remove--label {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0;
-  cursor: pointer;
-  height: 30px;
-  background: #7FC3A7;
-  border-radius: 7px;
-  padding: 0 20px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.file__remove--label {
-  background: #F5F5F5;
-  color: #000000;
-  margin-left: 10px;
-}
-
-.file__value {
-  color: #000000;
-}
-
-.file__value:hover:after {
-  color: #000000;
-}
-
-.file__value:after:hover {
-  color: #000000;
-}
-
-.file__remove {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #000;
-}
-
 /*======================================== config =================================*/
 *,
 *:before,
@@ -268,8 +211,8 @@ body {
   width: 100%;
   height: 100%;
   font-size: 18px;
-  line-height: 1.4;
-  font-family: "Karla";
+  line-height: 1.5;
+  font-family: "Josefin";
   font-weight: normal;
   background: #F9F7F2;
 }
@@ -297,7 +240,10 @@ time, mark, audio, video {
   outline: none !important;
 }
 
-.slick-slide img {
+.slick-slider {
+  margin: 0;
+}
+.slick-slider img {
   display: inline;
 }
 
@@ -312,6 +258,7 @@ time, mark, audio, video {
 .head-menu {
   padding: 25px 0;
   font-size: 20px;
+  font-family: Ogg;
 }
 .head-menu ul {
   list-style: none;
@@ -335,6 +282,93 @@ time, mark, audio, video {
   justify-content: flex-end;
 }
 
+.fter-top {
+  padding: 90px 0 50px 0;
+}
+.fter-top .item-fter .t-fter {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.fter-top .link-fter ul {
+  list-style: none;
+}
+.fter-top .link-fter ul li {
+  margin-bottom: 18px;
+}
+.fter-top .link-fter ul li:last-child {
+  margin-bottom: 0;
+}
+.fter-top .link-fter ul li a {
+  font-size: 16px;
+  color: #7C7C7C;
+}
+.fter-top .link-fter ul li a:hover {
+  color: #000000;
+}
+.fter-top .link-fter ul li label {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.fter-top .link-fter ul li p {
+  font-weight: 300;
+}
+.fter-top .fter-regis {
+  margin-top: 45px;
+}
+.fter-top .fter-regis .t-fter {
+  margin: 0;
+}
+.fter-top .fter-regis .desc-fter {
+  font-weight: 300;
+  padding: 12px 0;
+}
+.fter-top .btnmain a {
+  background: #C1BCB4;
+  color: #fff;
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  font-weight: 300;
+  font-size: 13px;
+}
+.fter-top .btnmain a:hover {
+  background: #000000;
+}
+
+.fter-right {
+  border-bottom: 1px solid #C1BCB4;
+  padding-bottom: 47px;
+}
+
+.fter-bottom {
+  font-size: 14px;
+  padding: 0 0 50px 0;
+}
+.fter-bottom ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fter-bottom ul li {
+  margin-right: 20px;
+}
+.fter-bottom ul li:last-child {
+  margin-right: 0;
+}
+.fter-bottom .list-info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.fter-bottom .item-info-bot:first-child a {
+  border-bottom: 1px solid;
+}
+
 .title {
   margin-bottom: 70px;
 }
@@ -342,12 +376,41 @@ time, mark, audio, video {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 48px;
+  font-family: "VN-Boowie";
+  color: #000000;
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 30px);
+}
+.slick-arrow.arr-prev {
+  left: -30px;
+}
+.slick-arrow.arr-next {
+  right: -30px;
 }
 
 .box-banner {
   position: relative;
   background: #DADADA;
   padding: 202px 0 126px 0;
+}
+.box-banner .slick-arrow {
+  position: absolute;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  bottom: -60px;
+  left: 48%;
+  top: unset;
+}
+.box-banner .slick-arrow.slick-right {
+  left: 52%;
 }
 
 .box-service {
@@ -453,7 +516,26 @@ time, mark, audio, video {
 .box-stories {
   padding: 150px 0;
 }
+.box-stories .slide-stories {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.box-stories .slide-stories .item-slide {
+  padding: 0 15px;
+}
+.box-stories .slide-stories .slick-arrow {
+  top: 180px;
+}
+.box-stories .slide-stories .slick-arrow.arr-prev {
+  left: -60px;
+}
+.box-stories .slide-stories .slick-arrow.arr-next {
+  right: -60px;
+}
 
+.item-stories .avarta img {
+  height: 420px;
+}
 .item-stories .info {
   max-width: 770px;
   margin: 0 auto;
@@ -528,6 +610,7 @@ time, mark, audio, video {
 
 .tab-review {
   margin-bottom: 64px;
+  font-family: Ogg;
 }
 .tab-review ul {
   list-style: none;

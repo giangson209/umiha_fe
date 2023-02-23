@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="item-fter">
+                                <div class="item-fter fter-regis">
                                     <div class="t-fter">Đăng ký hợp tác - phân phối</div>
                                     <div class="desc-fter">Trở thành đối tác đối tác độc quyền của UMIHA ngay!</div>
                                     <div class="btnmain"><a href="">Đăng ký</a></div>
@@ -81,6 +81,43 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fter-bottom text-uppercase text-center">
+        <div class="container">
+            <div class="list-info">
+                <div class="item-info-bot">
+                    <ul>
+                        <li><span>Liên hệ</span></li>
+                        <li><a href="" target="_blank">Hotline</a></li>
+                        <li><a href="" target="_blank">Email</a></li>
+                    </ul>
+                </div>
+                <div class="item-info-bot">
+                    <ul>
+                        <li><span>Mua hàng</span></li>
+                        <li><a href="" target="_blank"><img src="images/mh-1.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="images/mh-2.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="images/mh-3.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="images/mh-4.png" class="img-fluid" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="item-info-bot">
+                    <ul>
+                        <li><span>Mạng xã hội</span></li>
+                        <li><a href="" target="_blank"><img src="images/sc-1.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="images/sc-2.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="images/sc-3.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="images/sc-4.png" class="img-fluid" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="item-info-bot">
+                    <ul>
+                        <li><a href="" target="_blank"><img src="images/bct.png" class="img-fluid" alt=""></a></li>
+                        <li>©  2022 UMIHA. <br>All Rights Reserved.</li>
+                    </ul>
                 </div>
             </div>
         </div>

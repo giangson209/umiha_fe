@@ -9,8 +9,9 @@ $(document).ready(function(){
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: false,
-		nextArrow: '',
-		prevArrow: '',
+		fade: true,
+		nextArrow: '<a href="javascript:void(0)" class="slick-right"><img src="images/angle-arrow-right.png" class="img-fluid" alt=""></a>',
+		prevArrow: '<a href="javascript:void(0)" class="slick-left"><img src="images/angle-arrow-left.png" class="img-fluid" alt=""></a>',
 	});
 
 	$('.slide-stories').slick({
@@ -19,8 +20,8 @@ $(document).ready(function(){
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: false,
-		nextArrow: '',
-		prevArrow: '',
+		nextArrow: '<a href="javascript:void(0)" class="arr-next"><img src="images/arrow-circle-right.png" class="img-fluid" alt=""></a>',
+		prevArrow: '<a href="javascript:void(0)" class="arr-prev"><img src="images/arrow-circle-left.png" class="img-fluid" alt=""></a>',
 	});
 
 	$('.slide-prd-hot').slick({

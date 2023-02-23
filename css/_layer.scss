@@ -41,8 +41,8 @@ body {
   width: 100%;
   height: 100%;
   font-size: 18px;
-  line-height: 1.4;
-  font-family: 'Karla';
+  line-height: 1.5;
+  font-family: 'Josefin';
   font-weight: normal;
   background: #F9F7F2;
 } 
@@ -70,7 +70,8 @@ time, mark, audio, video {
   outline: none !important;
 }
 
-.slick-slide {
+.slick-slider {
+  margin: 0;
   img {
     display: inline;
   }
@@ -86,6 +87,7 @@ time, mark, audio, video {
 .head-menu {
   padding: 25px 0;
   font-size: 20px;
+  font-family: Ogg;
   ul {
     list-style: none;
     display: flex;
@@ -107,6 +109,101 @@ time, mark, audio, video {
   .menu-right {
     ul {
       justify-content: flex-end;
+    }
+  }
+}
+
+.fter-top {
+  padding: 90px 0 50px 0;
+  .item-fter {
+    .t-fter {
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+  }
+  .link-fter {
+    ul {
+      list-style: none;
+      li {
+        margin-bottom: 18px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        a {
+          font-size: 16px;
+          color: #7C7C7C;
+          &:hover {
+            color: #000000;
+          }
+        }
+        label {
+          margin-bottom: 0;
+          font-weight: 500;
+        }
+        p {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .fter-regis {
+    margin-top: 45px;
+    .t-fter {
+      margin: 0;
+    }
+    .desc-fter {
+      font-weight: 300;
+      padding: 12px 0;
+    }
+  }
+  .btnmain {
+    a {
+      background: #C1BCB4;
+      color: #fff;
+      display: inline-flex;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      width: 216px;
+      font-weight: 300;
+      font-size: 13px;
+      &:hover {
+        background: #000000;
+      }
+    }
+  }
+}
+.fter-right {
+  border-bottom: 1px solid #C1BCB4;
+  padding-bottom: 47px;
+}
+.fter-bottom {
+  font-size: 14px;
+  padding: 0 0 50px 0;
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li {
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .list-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .item-info-bot {
+    &:first-child {
+      a {
+        border-bottom: 1px solid;
+      }
     }
   }
 }
