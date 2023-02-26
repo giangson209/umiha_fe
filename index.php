@@ -251,6 +251,9 @@
                                 <div class="date">10/9/2022</div>
                             </div>
                             <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                            <div class="detail-link text-center">
+                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -263,6 +266,9 @@
                                 <div class="date">10/9/2022</div>
                             </div>
                             <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                            <div class="detail-link text-center">
+                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -275,6 +281,9 @@
                                 <div class="date">10/9/2022</div>
                             </div>
                             <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                            <div class="detail-link text-center">
+                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -287,6 +296,9 @@
                                 <div class="date">10/9/2022</div>
                             </div>
                             <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                            <div class="detail-link text-center">
+                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                            </div>
                         </div>
                     </div>
                 </div>

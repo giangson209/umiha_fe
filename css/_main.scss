@@ -140,6 +140,18 @@
       }
     }
   }
+  &.sale-cate {
+    &:after {
+      top: unset;
+      bottom: 0;
+      height: 84%;
+    }
+    .col-md-4 {
+      &:first-child, &:last-child {
+        padding-top: 6%;
+      }
+    }
+  }
 }
 .box-stories {
   padding: 150px 0;
@@ -263,7 +275,7 @@
   }
 }
 .box-blog {
-  padding: 75px 0 110px 0;
+  padding: 75px 0 0 0;
   .slide-blog {
     position: relative;
     margin: 0 -30px;
@@ -272,7 +284,23 @@
     }
   }
 }
-
+.detail-link {
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7A7875;
+    height: 58px;
+    width: 100%;
+    font-size: 14px;
+    color: #7A7875;
+    &:hover {
+      background: #DADEBE;
+      color: #fff;
+      border: 1px solid #DADEBE;
+    }
+  }
+}
 .item-blog {
   .top {
     padding: 20px 0;
@@ -287,6 +315,15 @@
       font-weight: 500;
       display: block;
       color: #4F4F4F;
+    }
+  }
+  .detail-link {
+    margin-top: 54px;
+    opacity: 0;
+  }
+  &:hover {
+    .detail-link {
+      opacity: 1;
     }
   }
 }
@@ -344,6 +381,181 @@
       height: 33px;
       opacity: 0;
       cursor: pointer;
+    }
+  }
+}
+.box-banner-bread {
+  position: relative;
+  .avarta-bread {
+    position: relative;
+    img {
+      max-height: 360px;
+      object-fit: cover;
+    }
+  }
+  .caption-bread {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-family: Ogg;
+      font-size: 40px;
+      font-weight: 400;
+    }
+  }
+}
+.box-tab-blog {
+  padding: 75px 0 165px 0;
+  background: #fff;
+  .slick-arrow {
+    bottom: -85px;
+    top: unset;
+    &.slick-left {
+      left: calc(50% - 50px);
+    }
+    &.slick-right {
+      right: calc(50% - 50px);
+    }
+  }
+}
+.slide-news {
+  margin: 0 -30px;
+  .item-slide {
+    padding: 0 30px;
+  }
+  .item-blog {
+    margin-bottom: 64px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.tab-blog {
+  font-family: Ogg;
+  margin-bottom: 64px;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        color: #000000;
+        font-size: 20px;
+        font-weight: normal;
+        &.active, &:hover {
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+}
+.content-blog {
+  position: relative;
+  .tab-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+    &.active {
+      opacity: 1;
+      pointer-events: unset;
+      position: relative;
+      z-index: 10;
+    }
+  }
+}
+
+.box-faq {
+  padding: 50px 0;
+  .tab-blog {
+    margin-bottom: 40px;
+  }
+}
+.title-faq {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.content-faq {
+  max-width: 770px;
+  margin: 0 auto;
+}
+.item-faq {
+  border-bottom: 0.5px solid #BFBFBF;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .head-faq {
+    position: relative;
+    font-weight: 300;
+    font-size: 22px;
+    color: #7C7C7C;
+    cursor: pointer;
+    padding-right: 35px;
+    .icon {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: calc(50% - 10px);
+      right: 0;
+      svg {
+        transition: .3s all !important;
+      }
+    }
+    &.active {
+      font-weight: normal;
+      .icon {
+        svg {
+          transform: rotate(-90deg);
+          path {
+            fill: rgb(79, 79, 79);
+          }
+        }
+      }
+    }
+  }
+  .answer {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 12px;
+    display: none;
+  }
+}
+.box-contact {
+  padding: 147px 0;
+  .container {
+    max-width: 1200px;
+  }
+  .txt-contact {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Ogg;
+    line-height: initial;
+  }
+}
+.content-contact {
+  .row {
+    margin: 0 -50px;
+    .col-md-6 {
+      padding: 0 50px;
     }
   }
 }

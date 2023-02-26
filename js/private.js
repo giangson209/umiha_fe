@@ -55,4 +55,29 @@ $(document).ready(function(){
 		prevArrow: '',
 	});
 
+	$('.slide-news').slick({
+		autoplay:false,
+		arrow:true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		nextArrow: '<a href="javascript:void(0)" class="slick-right"><img src="images/angle-arrow-right.png" class="img-fluid" alt=""></a>',
+		prevArrow: '<a href="javascript:void(0)" class="slick-left"><img src="images/angle-arrow-left.png" class="img-fluid" alt=""></a>',
+	});
+
+	$('.clc-tab').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.clc-tab').removeClass('active');
+		$('.tab-content').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
+	$('.head-faq').click(function(){
+		$(this).toggleClass('active');
+		$(this).next().slideToggle(300);
+	})
+
 })
