@@ -1,6 +1,7 @@
 <?php include 'header.php';?>
 <main>
     <section class="box-banner text-center">
+        <div class="sllogan text-center"><img src="images/title-banner.png" class="img-fluid" alt=""></div>
         <div class="slide-banner">
             <div class="item-slide">
                 <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
@@ -67,15 +68,18 @@
                     <div class="col-md-3">
                         <div class="list-cate-prd">
                             <ul>
-                                <li><a href="">Chăm sóc da</a></li>
-                                <li><a href="" class="active">Chăm sóc tóc</a></li>
-                                <li><a href="">Chăm sóc cơ thể</a></li>
-                                <li><a href="">Chăm sóc răng miệng </a></li>
+                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd active">Chăm sóc da</a></li>
+                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd" class="active">Chăm sóc tóc</a></li>
+                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd">Chăm sóc cơ thể</a></li>
+                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd">Chăm sóc răng miệng </a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="avr-cate text-center"><img src="images/avr-cate.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate active text-center"><img src="images/avr-cate.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate text-center"><img src="images/avr-cate-2.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate text-center"><img src="images/avr-cate-3.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate text-center"><img src="images/avr-cate-4.png" class="img-fluid" alt=""></div>
                     </div>
                     <div class="col-md-3">
                         <div class="txt-prd-cate">
@@ -120,7 +124,7 @@
                     <div class="item-stories text-center">
                         <div class="avarta"><img src="images/cauchuyen.png" class="img-fluid" alt=""></div>
                         <div class="info">
-                            <h5>Khởi đầu câu chuyện của UMIHa</h5>
+                            <h5>1. Khởi đầu câu chuyện của UMIHa</h5>
                             <div class="desc">
                                 Câu chuyện của chúng tôi bắt đầu từ năm 2015 tại vùng đất Cà Mau - nơi nguyên liệu cho sản phẩm đầu tiên được tìm thấy. Với niềm tin vào một thương hiệu đem nguyên liệu thiên nhiên phục vụ cho cuộc sống hiện đại, Umiha ra đời, mang theo mình sứ mệnh cùng bạn cải thiện những vấn đề phiền phức trên cơ thể."
                             </div>
@@ -131,7 +135,7 @@
                     <div class="item-stories text-center">
                         <div class="avarta"><img src="images/cauchuyen.png" class="img-fluid" alt=""></div>
                         <div class="info">
-                            <h5>Khởi đầu câu chuyện của UMIHa</h5>
+                            <h5>2. Khởi đầu câu chuyện của UMIHa</h5>
                             <div class="desc">
                                 Câu chuyện của chúng tôi bắt đầu từ năm 2015 tại vùng đất Cà Mau - nơi nguyên liệu cho sản phẩm đầu tiên được tìm thấy. Với niềm tin vào một thương hiệu đem nguyên liệu thiên nhiên phục vụ cho cuộc sống hiện đại, Umiha ra đời, mang theo mình sứ mệnh cùng bạn cải thiện những vấn đề phiền phức trên cơ thể."
                             </div>
@@ -142,7 +146,7 @@
                     <div class="item-stories text-center">
                         <div class="avarta"><img src="images/cauchuyen.png" class="img-fluid" alt=""></div>
                         <div class="info">
-                            <h5>Khởi đầu câu chuyện của UMIHa</h5>
+                            <h5>3. Khởi đầu câu chuyện của UMIHa</h5>
                             <div class="desc">
                                 Câu chuyện của chúng tôi bắt đầu từ năm 2015 tại vùng đất Cà Mau - nơi nguyên liệu cho sản phẩm đầu tiên được tìm thấy. Với niềm tin vào một thương hiệu đem nguyên liệu thiên nhiên phục vụ cho cuộc sống hiện đại, Umiha ra đời, mang theo mình sứ mệnh cùng bạn cải thiện những vấn đề phiền phức trên cơ thể."
                             </div>
@@ -162,7 +166,17 @@
                     for ($i = 1; $i <= 6; $i++) { ?>
                         <div class="item-slide">
                             <div class="item-prd text-center">
-                                <div class="avarta"><a href=""><img src="images/prd-2.png" class="img-fluid" alt=""></a></div>
+                                <div class="avarta">
+                                    <a href="">
+                                        <img src="images/prd-2.png" class="img-fluid w-100 hide-hver" alt="">
+                                        <img src="images/hver-prd.png" class="img-fluid w-100 show-hver" alt="">
+                                        <span>50%</span>
+                                    </a>
+                                    <div class="icon-eye"><a href="javascript:void(0)"><img src="images/eye.png" class="img-fluid" alt=""></a></div>
+<!--                                    <div class="txt-hver">-->
+<!--                                        Xịt khử mùi hôi chân và giày UMIHA với công thức độc đáo nhờ sự kết hợp của các thảo dược tự nhiên như khuynh diệp, bạc hà, chanh sần, quế giúp ngăn chặn nấm mốc, vi khuẩn gây mùi suốt 24h-->
+<!--                                    </div>-->
+                                </div>
                                 <div class="info">
                                     <h3><a href="">Mỡ trăn U Minh Hạ (30ml) </a></h3>
                                     <ul>
@@ -174,10 +188,16 @@
                                         <span> 125.000đ</span>
                                     </div>
                                 </div>
+                                <div class="btn-add-cart">
+                                    <a href="">Cho 1 vào giỏ</a>
+                                </div>
                             </div>
                         </div>
                     <?php }
                 ?>
+            </div>
+            <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                <span class="slider__label sr-only"></span>
             </div>
         </div>
     </section>
@@ -327,3 +347,37 @@
     </section>
 </main>
 <?php include 'footer.php';?>
+<script>
+    $('.slide-prd-hot').slick({
+        autoplay:true,
+        arrow:false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        nextArrow: '<a href="javascript:void(0)" class="arr-next"><img src="images/arrow-circle-right.png" class="img-fluid" alt=""></a>',
+        prevArrow: '<a href="javascript:void(0)" class="arr-prev"><img src="images/arrow-circle-left.png" class="img-fluid" alt=""></a>',
+        responsive: [
+            {
+                breakpoint: 1023,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            }
+        ],
+    });
+
+    var $slider = $('.slide-prd-hot');
+    var $progressBar = $('.progress');
+    var $progressBarLabel = $( '.slider__label' );
+
+    $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+        var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+
+        $progressBar
+            .css('background-size', calc + '% 100%')
+            .attr('aria-valuenow', calc );
+
+        $progressBarLabel.css('width', calc + '% 100%');
+    });
+</script>

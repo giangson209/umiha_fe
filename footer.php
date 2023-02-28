@@ -2,7 +2,7 @@
     <div class="fter-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 f-top-3">
                     <div class="logo">
                         <a href="">
                             <svg width="232" height="57" viewBox="0 0 232 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 f-top-9">
                     <div class="fter-right">
                         <div class="row">
                             <div class="col-md-3">

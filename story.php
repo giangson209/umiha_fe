@@ -1,15 +1,140 @@
-4<?php include 'header.php';?>
+<?php include 'header.php';?>
 <main>
+    <section class="box-about">
+        <div class="container">
+            <div class="caption-about">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="title-caption">Chào mừng bạn đến với UMIHA</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="txt-caption">
+                            Umiha là thương hiệu mỹ phẩm Việt Nam được thành lập bởi Founder Nguyễn Việt Tiến từ năm 2016. Sau hơn 6 năm, Umiha được biết đến với các dòng sản phẩm chăm sóc cơ thể có nguyên liệu 100% hữu cơ, lành tính như Kem tẩy lông, Mỡ trăn nguyên chất, Bột than hoạt tính, Xịt dưỡng tóc,... Qua từng sản phẩm, chúng tôi gửi gắm mong muốn trở thành một phần trong chu trình chăm sóc cơ thể, từng bước tìm lại sự tự tin cho bạn.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box-trip">
+        <div class="container">
+            <div class="title text-uppercase text-center">
+                <h2>Hành trình phát triển</h2>
+            </div>
+            <div class="slide-trip">
+                <div class="item-slide">
+                    <div class="item-trip text-center">
+                        <div class="top">Thành lập <br>Công ty TNHH Umiha</div>
+                        <div class="year">2016</div>
+                        <div class="bot">Founder Nguyễn Việt Tiến thành lập công ty TNHH Umiha Vietnam và thương hiệu Umiha Organic</div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-trip text-center">
+                        <div class="top">Thành lập <br>Công ty TNHH Umiha</div>
+                        <div class="year">2017</div>
+                        <div class="bot">Founder Nguyễn Việt Tiến thành lập công ty TNHH Umiha Vietnam và thương hiệu Umiha Organic</div>
+                    </div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-trip text-center">
+                        <div class="top">Thành lập <br>Công ty TNHH Umiha</div>
+                        <div class="year">2018</div>
+                        <div class="bot">Founder Nguyễn Việt Tiến thành lập công ty TNHH Umiha Vietnam và thương hiệu Umiha Organic</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box-value">
+        <div class="container">
+            <div class="content-giatri">
+                <div class="title text-uppercase mb-0">
+                    <h2>Giá trị cốt lõi</h2>
+                </div>
+                <div class="wrap-value">
+                    <div class="desc-value">
+                        Với Umiha, chất lượng được coi là mấu chốt của thương hiệu, chúng tôi cam kết đem đến sự trọn vẹn trong từng sản phẩm.
+                    </div>
+                    <div class="list-giatri">
+                        <div class="item-giatri">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="txt-gtri">
+                                        <div class="t-giatri">Tận tâm</div>
+                                        <div class="desc">Với Umiha, chất lượng được coi là mấu chốt của thương hiệu, chúng tôi cam kết đem đến sự trọn vẹn trong từng sản phẩm.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="avarta"><img src="images/gtri.png" class="img-fluid w-100" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-giatri">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="txt-gtri">
+                                        <div class="t-giatri">Chất lượng</div>
+                                        <div class="desc">Với Umiha, chất lượng được coi là mấu chốt của thương hiệu, chúng tôi cam kết đem đến sự trọn vẹn trong từng sản phẩm.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="avarta"><img src="images/gtri.png" class="img-fluid w-100" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-giatri">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="txt-gtri">
+                                        <div class="t-giatri">Cải tiến</div>
+                                        <div class="desc">Với Umiha, chất lượng được coi là mấu chốt của thương hiệu, chúng tôi cam kết đem đến sự trọn vẹn trong từng sản phẩm.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="avarta"><img src="images/gtri.png" class="img-fluid w-100" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="box-contact">
         <div class="container">
             <div class="content-contact">
-                <div class="row align-items-center">
+                <div class="row">
                     <div class="col-md-6">
                         <div class="avarta"><img src="images/contact.png" class="img-fluid w-100" alt=""></div>
                     </div>
                     <div class="col-md-6">
-                        <div class="txt-contact">
-                            Hành trình gian nan tìm đến vẻ đẹp thật sự không phải là nhiệm vụ của riêng bạn, chúng tôi sẽ cùng bạn đi trên hành trình đó.
+                        <div class="content-txt-contact">
+                            <div class="side-contact">
+                                <div class="txt-contact">
+                                    Hành trình gian nan tìm đến vẻ đẹp thật sự không phải là nhiệm vụ của riêng bạn, chúng tôi sẽ cùng bạn đi trên hành trình đó.
+                                </div>
+                                <div class="frm-contact">
+                                    <div class="t-head">Liên hệ chúng tôi</div>
+                                    <div class="list-frm">
+                                        <div class="item-frm">
+                                            <label>Họ tên*</label>
+                                            <input type="text" placeholder="" class="txt_field">
+                                        </div>
+                                        <div class="item-frm">
+                                            <label>Số điện thoại*</label>
+                                            <input type="text" placeholder="" class="txt_field">
+                                        </div>
+                                        <div class="item-frm">
+                                            <label>Email(không bắt buộc)</label>
+                                            <input type="text" placeholder="" class="txt_field">
+                                        </div>
+                                        <div class="item-frm">
+                                            <input type="submit" class="btn_field" value="Gửi">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

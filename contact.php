@@ -3,13 +3,37 @@
         <section class="box-contact">
             <div class="container">
                 <div class="content-contact">
-                    <div class="row align-items-center">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="avarta"><img src="images/contact.png" class="img-fluid w-100" alt=""></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="txt-contact">
-                                Hành trình gian nan tìm đến vẻ đẹp thật sự không phải là nhiệm vụ của riêng bạn, chúng tôi sẽ cùng bạn đi trên hành trình đó.
+                            <div class="content-txt-contact">
+                                <div class="side-contact">
+                                    <div class="txt-contact">
+                                        Hành trình gian nan tìm đến vẻ đẹp thật sự không phải là nhiệm vụ của riêng bạn, chúng tôi sẽ cùng bạn đi trên hành trình đó.
+                                    </div>
+                                    <div class="frm-contact">
+                                        <div class="t-head">Liên hệ chúng tôi</div>
+                                        <div class="list-frm">
+                                            <div class="item-frm">
+                                                <label>Họ tên*</label>
+                                                <input type="text" placeholder="" class="txt_field">
+                                            </div>
+                                            <div class="item-frm">
+                                                <label>Số điện thoại*</label>
+                                                <input type="text" placeholder="" class="txt_field">
+                                            </div>
+                                            <div class="item-frm">
+                                                <label>Email(không bắt buộc)</label>
+                                                <input type="text" placeholder="" class="txt_field">
+                                            </div>
+                                            <div class="item-frm">
+                                                <input type="submit" class="btn_field" value="Gửi">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

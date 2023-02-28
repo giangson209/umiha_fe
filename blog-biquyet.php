@@ -21,91 +21,95 @@
                 <div class="content-blog">
                     <div class="tab-content active" id="tab-1">
                         <div class="slide-news">
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
-                                        </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
-                                    </div>
-                                </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
-                                        </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -113,91 +117,95 @@
                     </div>
                     <div class="tab-content" id="tab-2">
                         <div class="slide-news">
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
+                                <div class="col-md-4">
+                                    <div class="item-blog">
+                                        <div class="avarta"><a href=""><img src="images/blog-3.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <div class="top">
+                                                <div class="cate">Bí quyết làm đẹp</div>
+                                                <div class="date">10/9/2022</div>
+                                            </div>
+                                            <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
+                                            <div class="detail-link text-center">
+                                                <a href="" class="text-uppercase">Đọc tiếp</a>
+                                            </div>
                                         </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-slide">
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
-                                        </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
-                                    </div>
-                                </div>
-                                <div class="item-blog">
-                                    <div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-                                    <div class="info">
-                                        <div class="top">
-                                            <div class="cate">Bí quyết làm đẹp</div>
-                                            <div class="date">10/9/2022</div>
-                                        </div>
-                                        <h3><a href="">Nên bắt đầu chống lão hoá da từ bao nhiêu tuổi</a></h3>
                                     </div>
                                 </div>
                             </div>
