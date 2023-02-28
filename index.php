@@ -1,16 +1,18 @@
 <?php include 'header.php';?>
 <main>
     <section class="box-banner text-center">
-        <div class="sllogan text-center"><img src="images/title-banner.png" class="img-fluid" alt=""></div>
-        <div class="slide-banner">
-            <div class="item-slide">
-                <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
-            </div>
-            <div class="item-slide">
-                <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
-            </div>
-            <div class="item-slide">
-                <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
+        <div class="content-banner-home">
+            <div class="sllogan text-center"><img src="images/title-banner.png" class="img-fluid" alt=""></div>
+            <div class="slide-banner">
+                <div class="item-slide">
+                    <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
+                </div>
+                <div class="item-slide">
+                    <div class="item-banner"><div class="avr"><img src="images/banner.png" class="img-fluid" alt=""></div></div>
+                </div>
             </div>
         </div>
     </section>
@@ -68,18 +70,18 @@
                     <div class="col-md-3">
                         <div class="list-cate-prd">
                             <ul>
-                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd active">Chăm sóc da</a></li>
-                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd" class="active">Chăm sóc tóc</a></li>
-                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd">Chăm sóc cơ thể</a></li>
-                                <li><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd">Chăm sóc răng miệng </a></li>
+                                <li class="c-color"><a href="javascript:void(0)" data-tab="prd-1" class="clc-prd active">Chăm sóc da</a></li>
+                                <li class="c-color"><a href="javascript:void(0)" data-tab="prd-2" class="clc-prd" class="active">Chăm sóc tóc</a></li>
+                                <li class="c-color"><a href="javascript:void(0)" data-tab="prd-3" class="clc-prd">Chăm sóc cơ thể</a></li>
+                                <li class="c-color"><a href="javascript:void(0)" data-tab="prd-4" class="clc-prd">Chăm sóc răng miệng </a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="avr-cate active text-center"><img src="images/avr-cate.png" class="img-fluid" alt=""></div>
-                        <div class="avr-cate text-center"><img src="images/avr-cate-2.png" class="img-fluid" alt=""></div>
-                        <div class="avr-cate text-center"><img src="images/avr-cate-3.png" class="img-fluid" alt=""></div>
-                        <div class="avr-cate text-center"><img src="images/avr-cate-4.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate active text-center" id="prd-1"><img src="images/avr-cate-1.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate text-center" id="prd-2"><img src="images/avr-cate-2.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate text-center" id="prd-3"><img src="images/avr-cate-3.png" class="img-fluid" alt=""></div>
+                        <div class="avr-cate text-center" id="prd-4"><img src="images/avr-cate-4.png" class="img-fluid" alt=""></div>
                     </div>
                     <div class="col-md-3">
                         <div class="txt-prd-cate">
@@ -210,48 +212,68 @@
                 <ul>
                     <li><a href="javascript:void(0)" class="clc-tab" data-tab="tab-1">Báo chí</a></li>
                     <li><a href="javascript:void(0)" class="clc-tab" data-tab="tab-2">Tiktok</a></li>
-                    <li><a href="javascript:void(0)" class="clc-tab" data-tab="tab-3">Youtube</a></li>
+                    <li><a href="javascript:void(0)" class="clc-tab" data-tab="tab-1">Youtube</a></li>
                 </ul>
             </div>
-            <div class="content-review">
-                <div class="tab-content" id="tab-1">
-                    <div class="slide-review">
+        </div>
+        <div class="content-review">
+            <div class="tab-content active" id="tab-1">
+                <div class="slide-review">
+                    <?php
+                    for ($x = 0; $x <= 7; $x++) { ?>
                         <div class="item-slide">
                             <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-1.png" class="img-fluid w-100" alt=""></a></div>
+                                <div class="avarta">
+                                    <a href=""><img src="images/review-2.png" class="img-fluid w-100" alt=""></a>
+                                    <div class="info text-center">
+                                        <h6>Hot tiktoker Long Khoa Học</h6>
+                                        <p>1,2M Followers | 457,1K Views</p>
+                                    </div>
+                                </div>
+                                <div class="view-sp"><a href="">Xem Sản phẩm được đánh giá</a></div>
                             </div>
                         </div>
+                     <?php }
+                    ?>
+                </div>
+            </div>
+            <div class="tab-content" id="tab-2">
+                <div class="slide-review">
+                    <?php
+                    for ($x = 0; $x <= 7; $x++) { ?>
                         <div class="item-slide">
                             <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-2.png" class="img-fluid w-100" alt=""></a></div>
+                                <div class="avarta">
+                                    <a href=""><img src="images/review-1.png" class="img-fluid w-100" alt=""></a>
+                                    <div class="info text-center">
+                                        <h6>Hot tiktoker Long Khoa Học</h6>
+                                        <p>1,2M Followers | 457,1K Views</p>
+                                    </div>
+                                </div>
+                                <div class="view-sp"><a href="">Xem Sản phẩm được đánh giá</a></div>
                             </div>
                         </div>
+                     <?php }
+                    ?>
+                </div>
+            <div class="tab-content" id="tab-2">
+                <div class="slide-review">
+                    <?php
+                    for ($x = 0; $x <= 7; $x++) { ?>
                         <div class="item-slide">
                             <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-1.png" class="img-fluid w-100" alt=""></a></div>
+                                <div class="avarta">
+                                    <a href=""><img src="images/review-1.png" class="img-fluid w-100" alt=""></a>
+                                    <div class="info text-center">
+                                        <h6>Hot tiktoker Long Khoa Học</h6>
+                                        <p>1,2M Followers | 457,1K Views</p>
+                                    </div>
+                                </div>
+                                <div class="view-sp"><a href="">Xem Sản phẩm được đánh giá</a></div>
                             </div>
                         </div>
-                        <div class="item-slide">
-                            <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-2.png" class="img-fluid w-100" alt=""></a></div>
-                            </div>
-                        </div>
-                        <div class="item-slide">
-                            <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-1.png" class="img-fluid w-100" alt=""></a></div>
-                            </div>
-                        </div>
-                        <div class="item-slide">
-                            <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-2.png" class="img-fluid w-100" alt=""></a></div>
-                            </div>
-                        </div>
-                        <div class="item-slide">
-                            <div class="item-review">
-                                <div class="avarta"><a href=""><img src="images/review-1.png" class="img-fluid w-100" alt=""></a></div>
-                            </div>
-                        </div>
-                    </div>
+                     <?php }
+                    ?>
                 </div>
             </div>
         </div>
@@ -363,7 +385,21 @@
                     slidesToShow: 3,
                     slidesToScroll: 1
                 }
-            }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
         ],
     });
 

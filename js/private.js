@@ -10,6 +10,22 @@ $(document).ready(function(){
 			dots: false,
 			nextArrow: '',
 			prevArrow: '',
+			responsive: [
+				{
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 575,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				},
+			],
 		});
 	};
 
@@ -37,14 +53,34 @@ $(document).ready(function(){
 
 
 	$('.slide-review').slick({
-		autoplay:true,
+		autoplay:false,
 		arrow:false,
-		// centerMode: true,
-		slidesToShow: 4,
+		centerMode: true,
+		slidesToShow: 5,
 		slidesToScroll: 1,
 		dots: false,
-		nextArrow: '',
-		prevArrow: '',
+		nextArrow: '<a href="javascript:void(0)" class="arr-next"><img src="images/arrow-circle-right.png" class="img-fluid" alt=""></a>',
+		prevArrow: '<a href="javascript:void(0)" class="arr-prev"><img src="images/arrow-circle-left.png" class="img-fluid" alt=""></a>',
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow: 1,
+				}
+			},
+		],
 	});
 
 	$('.slide-blog').slick({
@@ -55,6 +91,22 @@ $(document).ready(function(){
 		dots: false,
 		nextArrow: '<a href="javascript:void(0)" class="arr-next"><img src="images/arrow-circle-right.png" class="img-fluid" alt=""></a>',
 		prevArrow: '<a href="javascript:void(0)" class="arr-prev"><img src="images/arrow-circle-left.png" class="img-fluid" alt=""></a>',
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+		],
 	});
 
 	$('.slide-trip').slick({
@@ -72,6 +124,16 @@ $(document).ready(function(){
 
 		$('.clc-tab').removeClass('active');
 		$('.tab-content').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
+	$('.clc-prd').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.clc-prd').removeClass('active');
+		$('.avr-cate').removeClass('active');
 
 		$(this).addClass('active');
 		$("#"+tab_id).addClass('active');

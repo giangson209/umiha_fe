@@ -26,6 +26,20 @@
             <div class="txt-head-top text-uppercase">Freeship với hoá đơn trên 899.000VNĐ</div>
         </div>
     </div>
+    <div class="header-mobile d-none">
+        <div class="container">
+            <div class="content-mm-mobile">
+                <div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                <div class="b-menu">
+                    <ul>
+                        <li><a href="javascript:void(0)"><img src="images/mm-1.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="javascript:void(0)"><img src="images/mm-2.png" class="img-fluid" alt=""></a></li>
+                        <li><a href="javascript:void(0)"><img src="images/mm-3.png" class="img-fluid" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="head-menu">
         <div class="container">
             <div class="row align-items-center">
@@ -86,3 +100,12 @@
         </div>
     </div>
 </header>
+
+<div class="fix-menu-mobile text-center d-none">
+    <ul>
+        <li><a href=""><img src="images/menu-1.png" class="img-fluid" alt=""></a></li>
+        <li><a href=""><img src="images/menu-2.png" class="img-fluid" alt=""></a></li>
+        <li><a href=""><img src="images/menu-3.png" class="img-fluid" alt=""></a></li>
+        <li><a href=""><img src="images/menu-4.png" class="img-fluid" alt=""></a></li>
+    </ul>
+</div>
