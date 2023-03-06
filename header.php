@@ -9,16 +9,16 @@
     <!--link css-->
     <link rel="stylesheet" type="text/css" title="" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" title="" href="css/lib/slick.min.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/lib/slick-theme.min.css"> 
-    <link rel="stylesheet" type="text/css" title="" href="css/style.css"> 
+    <link rel="stylesheet" type="text/css" title="" href="css/lib/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" title="" href="css/style.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-<!--    <script src="js/lib/jquery.min.js"></script>-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--    <script src="js/lib/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
 </head>
 
-<body> 
+<body>
 
 <header>
     <div class="header-top text-center">
@@ -29,7 +29,7 @@
     <div class="header-mobile d-none">
         <div class="container">
             <div class="content-mm-mobile">
-                <div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                <div class="logo"><a href="index.php"><img src="images/logo.png" class="img-fluid" alt=""></a></div>
                 <div class="b-menu">
                     <ul>
                         <li><a href="javascript:void(0)"><img src="images/mm-1.png" class="img-fluid" alt=""></a></li>
@@ -46,15 +46,15 @@
                 <div class="col-md-5">
                     <div class="menu-left">
                         <ul>
-                            <li><a href="">Sản phẩm</a></li>
-                            <li><a href="">Dịch vụ</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Về chúng tôi</a></li>
+                            <li><a href="javascript:void(0)" class="mm-product">Sản phẩm</a></li>
+                            <li><a href="contact.php">Dịch vụ</a></li>
+                            <li><a href="blog-biquyet.php">Blog</a></li>
+                            <li><a href="story.php">Về chúng tôi</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <div class="logo text-center"><a href="">
+                    <div class="logo text-center"><a href="index.php">
                             <svg width="168" height="41" viewBox="0 0 168 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1858_29626)">
                                     <path d="M0.355469 0.359863H4.44548V27.0918C4.44548 33.5864 9.90067 38.9225 16.5987 38.9225C23.2968 38.9225 28.6936 33.5864 28.6936 27.0918V0.359863H32.7836V24.7148C32.7836 33.4124 25.4905 40.6032 16.5987 40.6032C7.70692 40.6032 0.355469 33.4124 0.355469 24.7148V0.359863Z" fill="#231F20"/>
@@ -86,7 +86,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="javascript:void(0)" class="mm-cart">
                                     <span>Giỏ hàng(3)</span>
                                     <svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75804 6.24184C7.75804 4.42803 9.21522 2.9707 10.9967 2.9707C12.7782 2.9707 14.2354 4.42803 14.2354 6.24184V6.66556H7.75804V6.24184ZM5.75804 8.66556V10.513C5.75804 11.0653 6.20575 11.513 6.75804 11.513C7.31032 11.513 7.75804 11.0653 7.75804 10.513V8.66556H14.2354V10.513C14.2354 11.0653 14.6831 11.513 15.2354 11.513C15.7877 11.513 16.2354 11.0653 16.2354 10.513V8.66556H18.5475L19.8077 25.1738H2.1857L3.44591 8.66556H5.75804ZM5.75804 6.66556V6.24184C5.75804 3.33788 8.09629 0.970703 10.9967 0.970703C13.8971 0.970703 16.2354 3.33788 16.2354 6.24184V6.66556H19.474C19.9968 6.66556 20.4313 7.0682 20.4711 7.58944L21.884 26.0977C21.9052 26.3753 21.8097 26.6492 21.6204 26.8535C21.4312 27.0577 21.1654 27.1738 20.8869 27.1738H1.10645C0.828005 27.1738 0.562171 27.0577 0.372923 26.8535C0.183676 26.6492 0.088155 26.3753 0.109349 26.0977L1.52224 7.58944C1.56203 7.0682 1.99658 6.66556 2.51934 6.66556H5.75804Z" fill="#262626"/>
@@ -95,6 +95,226 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="mega-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="tab-mega">
+                            <ul>
+                                <li><a href="javascript:void(0)" data-tab="mega-1" class="clc-mm-mega active">Chăm sóc cơ thể</a></li>
+                                <li><a href="javascript:void(0)" data-tab="mega-2" class="clc-mm-mega">Chăm sóc tóc</a></li>
+                                <li><a href="javascript:void(0)" data-tab="mega-1" class="clc-mm-mega">Chăm sóc răng miệng </a></li>
+                                <li><a href="javascript:void(0)" data-tab="mega-2" class="clc-mm-mega">Chăm sóc da</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content-mega active" id="mega-1">
+                            <div class="left">
+                                <ul>
+                                    <li>
+                                        <a href="product-3.php">Triệt lông</a>
+                                        <ul>
+                                            <li><a href="product-3.php">Kem tẩy lông</a></li>
+                                            <li><a href="product-3.php">Sáp wax lông</a></li>
+                                            <li><a href="product-3.php">Mỡ trăn</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="product-4.php">Xịt khử mùi</a>
+                                        <ul>
+                                            <li><a href="product-4.php">Xịt khử mùi chân</a></li>
+                                            <li><a href="product-4.php">Xịt khử mùi dưới cánh tay</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <div class="list-prd-mega">
+                                    <div class="item-prd-mega">
+                                        <div class="avarta"><a href=""><img src="images/mega.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <h4><a href="">Mỡ trăn U Minh Hạ (30ml) </a></h4>
+                                            <div class="bot">
+                                                <span>30ml</span>
+                                                <p> 125 000đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-prd-mega">
+                                        <div class="avarta"><a href=""><img src="images/mega.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <h4><a href="">Mỡ trăn U Minh Hạ (30ml) </a></h4>
+                                            <div class="bot">
+                                                <span>30ml</span>
+                                                <p> 125 000đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content-mega" id="mega-2">
+                            <div class="left">
+                                <ul>
+                                    <li>
+                                        <a href="product-1.php">Ngăn rụng tóc</a>
+                                        <ul>
+                                            <li><a href="product-1.php">Xịt tóc hương nhu trắng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="product-2.php">Kích thích mọc tóc</a>
+                                        <ul>
+                                            <li><a href="product-2.php">Xịt tóc bưởi bồ kết</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <div class="list-prd-mega">
+                                    <div class="item-prd-mega">
+                                        <div class="avarta"><a href=""><img src="images/mega.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <h4><a href="">Mỡ trăn U Minh Hạ (30ml) 1</a></h4>
+                                            <div class="bot">
+                                                <span>30ml</span>
+                                                <p> 125 000đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-prd-mega">
+                                        <div class="avarta"><a href=""><img src="images/mega.png" class="img-fluid w-100" alt=""></a></div>
+                                        <div class="info">
+                                            <h4><a href="">Mỡ trăn U Minh Hạ (30ml) 2</a></h4>
+                                            <div class="bot">
+                                                <span>30ml</span>
+                                                <p> 125 000đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-card-head">
+        <div class="content-menu-cart">
+            <div class="h-card">Giỏ hàng</div>
+            <div class="shiping">
+                <div class="icon">
+                    <svg width="40" height="27" viewBox="0 0 40 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32.25 8.14286L32.8054 7.63886C32.6633 7.4822 32.4616 7.39286 32.25 7.39286V8.14286ZM38.5 15.0306H39.25C39.25 14.8443 39.1806 14.6646 39.0554 14.5266L38.5 15.0306ZM38.5 22.4286L38.5001 23.1786C38.9143 23.1785 39.25 22.8427 39.25 22.4286H38.5ZM34.7763 22.4291L34.0692 22.6789V22.6789L34.7763 22.4291ZM29.7237 22.4291L30.4308 22.6789L30.4308 22.6789L29.7237 22.4291ZM26 8.14286V7.39286C25.5858 7.39286 25.25 7.72864 25.25 8.14286H26ZM1 0.25C0.585786 0.25 0.25 0.585786 0.25 1C0.25 1.41421 0.585786 1.75 1 1.75V0.25ZM26 1H26.75C26.75 0.585786 26.4142 0.25 26 0.25V1ZM6.35735 21.6786C5.94313 21.6785 5.60726 22.0142 5.60714 22.4284C5.60703 22.8426 5.94273 23.1785 6.35694 23.1786L6.35735 21.6786ZM7.25 12.4643C7.66421 12.4643 8 12.1285 8 11.7143C8 11.3001 7.66421 10.9643 7.25 10.9643V12.4643ZM4.57143 10.9643C4.15722 10.9643 3.82143 11.3001 3.82143 11.7143C3.82143 12.1285 4.15722 12.4643 4.57143 12.4643V10.9643ZM7.25 17.8214C7.66421 17.8214 8 17.4856 8 17.0714C8 16.6572 7.66421 16.3214 7.25 16.3214V17.8214ZM6.35714 16.3214C5.94293 16.3214 5.60714 16.6572 5.60714 17.0714C5.60714 17.4856 5.94293 17.8214 6.35714 17.8214V16.3214ZM7.25 7.10714C7.66421 7.10714 8 6.77136 8 6.35714C8 5.94293 7.66421 5.60714 7.25 5.60714V7.10714ZM2.78571 5.60714C2.3715 5.60714 2.03571 5.94293 2.03571 6.35714C2.03571 6.77136 2.3715 7.10714 2.78571 7.10714V5.60714ZM31.6946 8.64685L37.9446 15.5346L39.0554 14.5266L32.8054 7.63886L31.6946 8.64685ZM37.75 15.0306V22.4286H39.25V15.0306H37.75ZM38.4999 21.6786L34.7762 21.6791L34.7765 23.1791L38.5001 23.1786L38.4999 21.6786ZM35.4835 22.1793C35.0134 20.8483 33.7442 19.8929 32.25 19.8929V21.3929C33.0887 21.3929 33.8042 21.9286 34.0692 22.6789L35.4835 22.1793ZM32.25 19.8929C30.7558 19.8929 29.4866 20.8483 29.0165 22.1793L30.4308 22.6789C30.6958 21.9286 31.4113 21.3929 32.25 21.3929V19.8929ZM29.7238 21.6791L26.0001 21.6786L25.9999 23.1786L29.7236 23.1791L29.7238 21.6791ZM26.75 22.4286V8.14286H25.25V22.4286H26.75ZM26 8.89286H32.25V7.39286H26V8.89286ZM1 1.75H26V0.25H1V1.75ZM25.25 1V22.4286H26.75V1H25.25ZM26 21.6786L13.3477 21.6791L13.3478 23.1791L26 23.1786L26 21.6786ZM14.055 22.1793C13.5848 20.8483 12.3157 19.8929 10.8214 19.8929V21.3929C11.6601 21.3929 12.3756 21.9286 12.6406 22.6789L14.055 22.1793ZM10.8214 19.8929C9.32719 19.8929 8.05803 20.8483 7.58791 22.1793L9.00227 22.6789C9.26727 21.9286 9.98275 21.3929 10.8214 21.3929V19.8929ZM8.29529 21.6791L6.35735 21.6786L6.35694 23.1786L8.29489 23.1791L8.29529 21.6791ZM32.25 21.3929C33.3151 21.3929 34.1786 22.2563 34.1786 23.3214H35.6786C35.6786 21.4279 34.1436 19.8929 32.25 19.8929V21.3929ZM34.1786 23.3214C34.1786 24.3865 33.3151 25.25 32.25 25.25V26.75C34.1436 26.75 35.6786 25.215 35.6786 23.3214H34.1786ZM32.25 25.25C31.1849 25.25 30.3214 24.3865 30.3214 23.3214H28.8214C28.8214 25.215 30.3565 26.75 32.25 26.75V25.25ZM30.3214 23.3214C30.3214 22.2563 31.1849 21.3929 32.25 21.3929V19.8929C30.3565 19.8929 28.8214 21.4279 28.8214 23.3214H30.3214ZM10.8214 21.3929C11.8866 21.3929 12.75 22.2563 12.75 23.3214H14.25C14.25 21.4279 12.715 19.8929 10.8214 19.8929V21.3929ZM12.75 23.3214C12.75 24.3865 11.8866 25.25 10.8214 25.25V26.75C12.715 26.75 14.25 25.215 14.25 23.3214H12.75ZM10.8214 25.25C9.75631 25.25 8.89286 24.3865 8.89286 23.3214H7.39286C7.39286 25.215 8.92788 26.75 10.8214 26.75V25.25ZM8.89286 23.3214C8.89286 22.2563 9.75631 21.3929 10.8214 21.3929V19.8929C8.92788 19.8929 7.39286 21.4279 7.39286 23.3214H8.89286ZM7.25 10.9643H4.57143V12.4643H7.25V10.9643ZM7.25 16.3214H6.35714V17.8214H7.25V16.3214ZM7.25 5.60714H2.78571V7.10714H7.25V5.60714ZM29.0165 22.1793C28.8899 22.5375 28.8214 22.9223 28.8214 23.3214H30.3214C30.3214 23.0948 30.3602 22.8789 30.4308 22.6789L29.0165 22.1793ZM35.6786 23.3214C35.6786 22.9223 35.6101 22.5375 35.4835 22.1793L34.0692 22.6789C34.1398 22.8789 34.1786 23.0948 34.1786 23.3214H35.6786ZM7.58791 22.1793C7.46137 22.5375 7.39286 22.9223 7.39286 23.3214H8.89286C8.89286 23.0948 8.93163 22.8789 9.00227 22.6789L7.58791 22.1793ZM14.25 23.3214C14.25 22.9223 14.1815 22.5375 14.055 22.1793L12.6406 22.6789C12.7112 22.8789 12.75 23.0948 12.75 23.3214H14.25Z" fill="#C1BCB4"/>
+                    </svg>
+                </div>
+                <span>Free ship cho đơn hàng trên 500.000vnđ</span>
+            </div>
+            <div class="list-prd-head">
+                <div class="item-prd-card">
+                    <div class="aavrta"><a href=""><img src="images/prd-pay.png" class="img-fluid w-100" alt=""></a></div>
+                    <div class="info">
+                        <h4><a href="">Xịt dưỡng tóc</a></h4>
+                        <p>Có công xịt dưỡng có ngày tóc xinh.</p>
+                        <p>100ml</p>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="quantity">
+                                    <img src="images/add-cart.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="price">125 000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-prd-card">
+                    <div class="aavrta"><a href=""><img src="images/prd-pay.png" class="img-fluid w-100" alt=""></a></div>
+                    <div class="info">
+                        <h4><a href="">Xịt dưỡng tóc</a></h4>
+                        <p>Có công xịt dưỡng có ngày tóc xinh.</p>
+                        <p>100ml</p>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="quantity">
+                                    <img src="images/add-cart.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="price">125 000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-prd-card">
+                    <div class="aavrta"><a href=""><img src="images/prd-pay.png" class="img-fluid w-100" alt=""></a></div>
+                    <div class="info">
+                        <h4><a href="">Xịt dưỡng tóc</a></h4>
+                        <p>Có công xịt dưỡng có ngày tóc xinh.</p>
+                        <p>100ml</p>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="quantity">
+                                    <img src="images/add-cart.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="price">125 000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-prd-card">
+                    <div class="aavrta"><a href=""><img src="images/prd-pay.png" class="img-fluid w-100" alt=""></a></div>
+                    <div class="info">
+                        <h4><a href="">Xịt dưỡng tóc</a></h4>
+                        <p>Có công xịt dưỡng có ngày tóc xinh.</p>
+                        <p>100ml</p>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="quantity">
+                                    <img src="images/add-cart.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="price">125 000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-prd-card">
+                    <div class="aavrta"><a href=""><img src="images/prd-pay.png" class="img-fluid w-100" alt=""></a></div>
+                    <div class="info">
+                        <h4><a href="">Xịt dưỡng tóc</a></h4>
+                        <p>Có công xịt dưỡng có ngày tóc xinh.</p>
+                        <p>100ml</p>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="quantity">
+                                    <img src="images/add-cart.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="price">125 000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d">
+                <div class="note-cart">Mua thêm 10K để nhận quà 0Đ</div>
+                <div class="total-cart">
+                    <p>TẠM TÍNH</p>
+                    <p>575.000vnđ</p>
+                </div>
+                <div class="paynow">
+                    <a href="payment.php">Thanh toán</a>
                 </div>
             </div>
         </div>

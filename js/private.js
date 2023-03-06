@@ -1,5 +1,29 @@
 
 $(document).ready(function(){
+	var $el_1 = $(".mm-cart");
+	var $ee_1 = $(".box-card-head");
+	$el_1.on('click', function(e) {
+		e.stopPropagation();
+		$ee_1.toggleClass('active');
+	});
+	$(document).on('click',function(e){
+		if(($(e.target) != $el_1) && ($ee_1.hasClass('active'))){
+			$ee_1.removeClass('active');
+		}
+	});
+
+	var $el_2 = $(".mm-product");
+	var $ee_2 = $(".mega-menu");
+	$el_2.on('click', function(e) {
+		e.stopPropagation();
+		$ee_2.toggleClass('active');
+	});
+	// $(document).on('click',function(e){
+	// 	if(($(e.target) != $el_2) && ($ee_2.hasClass('active'))){
+	// 		$ee_2.removeClass('active');
+	// 	}
+	// });
+
 
 	if($(window).innerWidth() < 1024){
 		$('.list-service .row').slick({
@@ -139,6 +163,10 @@ $(document).ready(function(){
 		prevArrow: '',
 	});
 
+	$(".clc-mm-mega").hover(function(){
+		$(this).click();
+	});
+
 	$('.clc-tab').click(function(){
 		var tab_id = $(this).attr('data-tab');
 
@@ -147,7 +175,7 @@ $(document).ready(function(){
 
 		$(this).addClass('active');
 		$("#"+tab_id).addClass('active');
-	})
+	});
 
 	$('.clc-prd').click(function(){
 		var tab_id = $(this).attr('data-tab');
@@ -157,7 +185,17 @@ $(document).ready(function(){
 
 		$(this).addClass('active');
 		$("#"+tab_id).addClass('active');
-	})
+	});
+
+	$('.clc-mm-mega').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.clc-mm-mega').removeClass('active');
+		$('.tab-content-mega').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	});
 
 	$('.head-faq').click(function(){
 		$(this).toggleClass('active');
@@ -168,7 +206,6 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 		$(this).next().slideToggle(300);
 	})
-
 })
 
 var numberSpinner = (function() {
