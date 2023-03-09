@@ -147,6 +147,8 @@ time, mark, audio, video {
       a {
         display: flex;
         align-items: center;
+        color: #000000;
+        font-weight: 400;
         img, svg {
           margin-left: 8px;
         }
@@ -678,6 +680,24 @@ main {
           font-weight: 500;
         }
       }
+    }
+  }
+}
+
+.slick-dots {
+  position: relative;
+  bottom: 0;
+  margin-top: 16px;
+  button {
+    display: none !important;
+  }
+  li {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #4F4F4F;
+    border-radius: 100%;
+    &.slick-active {
+      background: #4F4F4F;
     }
   }
 }

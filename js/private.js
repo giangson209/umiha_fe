@@ -1,5 +1,19 @@
 
 $(document).ready(function(){
+
+	// $(window).scroll(function() {
+       
+    //    var headerH = $('.header').outerHeight(true);
+    //    console.log(headerH);
+    //    var scrollVal = $(this).scrollTop();
+    //     if ( scrollVal > headerH ) {
+    //         $('#subnav').css({'position':'fixed','top' :'0px'});
+    //     } else {
+    //         $('#subnav').css({'position':'static','top':'0px'});
+    //     }
+    // });
+
+
 	var $el_1 = $(".mm-cart");
 	var $ee_1 = $(".box-card-head");
 	$el_1.on('click', function(e) {
@@ -39,14 +53,16 @@ $(document).ready(function(){
 					breakpoint: 767,
 					settings: {
 						slidesToShow: 2,
-						slidesToScroll: 1
+						slidesToScroll: 1,
+						dots: true,
 					}
 				},
 				{
 					breakpoint: 575,
 					settings: {
 						slidesToShow: 1,
-						slidesToScroll: 1
+						slidesToScroll: 1,
+						dots: true,
 					}
 				},
 			],
@@ -72,6 +88,20 @@ $(document).ready(function(){
 		dots: false,
 		nextArrow: '<a href="javascript:void(0)" class="arr-next"><img src="images/arrow-circle-right.png" class="img-fluid" alt=""></a>',
 		prevArrow: '<a href="javascript:void(0)" class="arr-prev"><img src="images/arrow-circle-left.png" class="img-fluid" alt=""></a>',
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					dots: true,
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					dots: true,
+				}
+			},
+		],
 	});
 
 
@@ -96,12 +126,14 @@ $(document).ready(function(){
 				breakpoint: 767,
 				settings: {
 					slidesToShow: 3,
+					dots: true,
 				}
 			},
 			{
 				breakpoint: 575,
 				settings: {
 					slidesToShow: 1,
+					dots: true,
 				}
 			},
 		],
@@ -120,14 +152,16 @@ $(document).ready(function(){
 				breakpoint: 767,
 				settings: {
 					slidesToShow: 2,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					dots: true,
 				}
 			},
 			{
 				breakpoint: 575,
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					dots: true,
 				}
 			},
 		],

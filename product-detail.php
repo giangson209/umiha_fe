@@ -270,15 +270,17 @@
                         <div class="item-vote">
                             <div class="user-vote">
                                 <div class="avr"><img src="images/vote-user.png" class="img-fluid" alt=""></div>
-                                <div class="star">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star-o.png" class="img-fluid" alt="">
+                                <div class="i-avr">
+                                    <div class="star">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star-o.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="name">Thuỳ Linh</div>
+                                    <p>Hà Nội</p>
                                 </div>
-                                <div class="name">Thuỳ Linh</div>
-                                <p>Hà Nội</p>
                             </div>
                             <div class="content-star">
                                 <div class="date">08/11/2022</div>
@@ -303,15 +305,17 @@
                         <div class="item-vote">
                             <div class="user-vote">
                                 <div class="avr"><img src="images/vote-user.png" class="img-fluid" alt=""></div>
-                                <div class="star">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star-o.png" class="img-fluid" alt="">
+                                <div class="i-avr">
+                                    <div class="star">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star-o.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="name">Thuỳ Linh</div>
+                                    <p>Hà Nội</p>
                                 </div>
-                                <div class="name">Thuỳ Linh</div>
-                                <p>Hà Nội</p>
                             </div>
                             <div class="content-star">
                                 <div class="date">08/11/2022</div>
@@ -336,15 +340,17 @@
                         <div class="item-vote">
                             <div class="user-vote">
                                 <div class="avr"><img src="images/vote-user.png" class="img-fluid" alt=""></div>
-                                <div class="star">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star.png" class="img-fluid" alt="">
-                                    <img src="images/star-o.png" class="img-fluid" alt="">
+                                <div class="i-avr">
+                                    <div class="star">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star.png" class="img-fluid" alt="">
+                                        <img src="images/star-o.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="name">Thuỳ Linh</div>
+                                    <p>Hà Nội</p>
                                 </div>
-                                <div class="name">Thuỳ Linh</div>
-                                <p>Hà Nội</p>
                             </div>
                             <div class="content-star">
                                 <div class="date">08/11/2022</div>
@@ -374,7 +380,7 @@
             </div>
         </div>
     </section>
-    <div class="div">
+    <div class="div prd-other">
         <section class="box-product">
             <div class="container">
                 <div class="row align-items-center">
