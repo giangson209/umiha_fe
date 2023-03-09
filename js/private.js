@@ -1,17 +1,17 @@
 
 $(document).ready(function(){
 
-	// $(window).scroll(function() {
+	$(window).scroll(function() {
        
-    //    var headerH = $('.header').outerHeight(true);
-    //    console.log(headerH);
-    //    var scrollVal = $(this).scrollTop();
-    //     if ( scrollVal > headerH ) {
-    //         $('#subnav').css({'position':'fixed','top' :'0px'});
-    //     } else {
-    //         $('#subnav').css({'position':'static','top':'0px'});
-    //     }
-    // });
+       var headerH = $('.header-top').outerHeight(true);
+       console.log(headerH);
+       var scrollVal = $(this).scrollTop();
+        if ( scrollVal > headerH ) {
+            $('.head-menu, main').addClass('fixmenu');
+        } else {
+			$('.head-menu, main').removeClass('fixmenu');
+        }
+    });
 
 
 	var $el_1 = $(".mm-cart");

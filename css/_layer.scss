@@ -115,6 +115,7 @@ time, mark, audio, video {
 .head-menu {
   position: relative;
   z-index: 12;
+  width: 100%;
   @media (max-width: 1023px) {
     display: none;
   }
@@ -123,9 +124,16 @@ time, mark, audio, video {
   padding: 25px 0;
   font-size: 20px;
   font-family: Ogg;
-  background: #F9F7F2;
+  background: #fff;
+  width: 100%;
+  z-index: 1001;
+  top: 0;
+  left: 0;
   @media (max-width: 1600px) {
     font-size: 18px;
+  }
+  &.fixmenu {
+    position: fixed;
   }
   .container {
     @media (max-width: 1400px) {
@@ -575,7 +583,7 @@ main {
   font-size: 20px;
   font-family: "Josefin";
   padding: 60px 0;
-  background: #F9F7F2;
+  background: #fff;
   position: absolute;
   z-index: 1003;
   top: 74px;
@@ -611,6 +619,22 @@ main {
   &.active {
     display: flex;
   }
+  a {
+    position: relative;
+    display: inline-flex;
+    padding-left: 20px;
+    &:after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 100%;
+      background: #3E5155;
+      position: absolute;
+      top: calc(50% - 3px);
+      left: 0;
+      opacity: 1;
+    }
+  }
   ul {
     li {
       margin-bottom: 50px;
@@ -620,6 +644,12 @@ main {
       ul {
         li {
           margin-bottom: 8px;
+          a {
+            padding-left: 10px;
+            &:after {
+              display: none;
+            }
+          }
         }
       }
     }
@@ -661,6 +691,12 @@ main {
     &:last-child {
       margin-right: 0;
     }
+    a {
+      padding-left: 0;
+      &:after {
+        display: none;
+      }
+    }
     .info {
       a {
         display: block;
@@ -669,6 +705,7 @@ main {
         color: #4F4F4F;
         padding: 6px 0;
         border-bottom: 0.648349px solid #BFBFBF;
+
       }
       .bot {
         font-size: 14px;
@@ -698,6 +735,15 @@ main {
     border-radius: 100%;
     &.slick-active {
       background: #4F4F4F;
+    }
+  }
+}
+
+main {
+  &.fixmenu {
+    margin-top: 99px;
+    @media (max-width: 767px) {
+      margin-top: 62px;
     }
   }
 }

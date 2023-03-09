@@ -302,6 +302,7 @@ time, mark, audio, video {
 .head-menu {
   position: relative;
   z-index: 12;
+  width: 100%;
 }
 @media (max-width: 1023px) {
   .head-menu {
@@ -313,12 +314,19 @@ time, mark, audio, video {
   padding: 25px 0;
   font-size: 20px;
   font-family: Ogg;
-  background: #F9F7F2;
+  background: #fff;
+  width: 100%;
+  z-index: 1001;
+  top: 0;
+  left: 0;
 }
 @media (max-width: 1600px) {
   .head-menu {
     font-size: 18px;
   }
+}
+.head-menu.fixmenu {
+  position: fixed;
 }
 @media (max-width: 1400px) {
   .head-menu .container {
@@ -805,7 +813,7 @@ time, mark, audio, video {
   font-size: 20px;
   font-family: "Josefin";
   padding: 60px 0;
-  background: #F9F7F2;
+  background: #fff;
   position: absolute;
   z-index: 1003;
   top: 74px;
@@ -843,6 +851,22 @@ time, mark, audio, video {
 .tab-content-mega.active {
   display: flex;
 }
+.tab-content-mega a {
+  position: relative;
+  display: inline-flex;
+  padding-left: 20px;
+}
+.tab-content-mega a:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #3E5155;
+  position: absolute;
+  top: calc(50% - 3px);
+  left: 0;
+  opacity: 1;
+}
 .tab-content-mega ul li {
   margin-bottom: 50px;
 }
@@ -851,6 +875,12 @@ time, mark, audio, video {
 }
 .tab-content-mega ul li ul li {
   margin-bottom: 8px;
+}
+.tab-content-mega ul li ul li a {
+  padding-left: 10px;
+}
+.tab-content-mega ul li ul li a:after {
+  display: none;
 }
 
 .tab-mega ul li a {
@@ -885,6 +915,12 @@ time, mark, audio, video {
 }
 .list-prd-mega .item-prd-mega:last-child {
   margin-right: 0;
+}
+.list-prd-mega .item-prd-mega a {
+  padding-left: 0;
+}
+.list-prd-mega .item-prd-mega a:after {
+  display: none;
 }
 .list-prd-mega .item-prd-mega .info a {
   display: block;
@@ -921,6 +957,15 @@ time, mark, audio, video {
 }
 .slick-dots li.slick-active {
   background: #4F4F4F;
+}
+
+main.fixmenu {
+  margin-top: 99px;
+}
+@media (max-width: 767px) {
+  main.fixmenu {
+    margin-top: 62px;
+  }
 }
 
 .title {
